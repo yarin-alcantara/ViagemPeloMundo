@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+        <!-- Meta tags Obrigatórias -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Courgette&family=Satisfy&display=swap" rel="stylesheet">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <title>Viagem pelo mundo</title>
+  </head>
+  <body>
+                <!--Barra de Navegação-->
+        <nav class="navbar navbar-expand-lg">
+            <!-- Imagem e texto -->
+            <nav class="navbar ">
+                <a class="navbar-brand" href="">
+                    <img src="img/Noun_15537_ccElliotVerhaeren_travel.jpeg" width="40" height="40" 
+                    class="d-inline-block  mr-4" alt="mundo">Viagem pelo mundo
+                </a>
+            </nav>
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link font-weight-bold text-uppercase" href="#carouselExampleIndicators">Home <span class="sr-only">(página atual)</span></a>
+                    </li>
+                    <li class="nav-item font-weight-bold text-uppercase">
+                    <a class="nav-link" href="#jumbo">Sobre</a>
+                    </li>
+                    <li class="nav-item font-weight-bold text-uppercase">
+                    <a class="nav-link" href="#cards">Postagens</a>
+                    </li>
+                    <li class="nav-item dropdown font-weight-bold text-uppercase">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Países
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#mapa">Brasil</a>
+                            <a class="dropdown-item" href="#mapa">Argentina</a>
+                            <a class="dropdown-item" href="#mapa">Paraguai</a>
+                            <a class="dropdown-item" href="#mapa">Uruguai</a>
+                            <a class="dropdown-item" href="#mapa">Republica Dominicana</a>
+                            <a class="dropdown-item" href="#mapa">Espanha</a>
+                            <a class="dropdown-item" href="#mapa">França</a>
+                            <a class="dropdown-item" href="#mapa">Italia</a>
+                            <a class="dropdown-item" href="#mapa">Malta</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown font-weight-bold text-uppercase">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Playlists 
+                    </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#video">Videos</a>
+                                <a class="dropdown-item" href="#spotify">Playlist Spotify</a>
+                            </div>
+                    </li>
+                    <li class="nav-item font-weight-bold text-uppercase ">
+                        <a class="nav-link my-2 my-sm-0" href="#contato">Contato</a>
+                    </li>  
+                </ul>
+            </div>
+            <div>
+                <img src="img/aviao2.gif" width="60" height="60" class="mr-5" >
+            </div>
+        </nav>
+      <!--/Barra de Navegação-->
+      <!--Carrousel-->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner ">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="img/malta_1.jpg" alt="Foto de Malta">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/malta_2.jpg" alt="Foto da Blue Lagoon">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/malta_3.jpg" alt="Foto George's Bay">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+      <!--/Carrousel-->
+      <!--Jumbotron-->
+      <div id="jumbo" class="container jumbotron p-4 mt-3">
+            <h1 class="display-4 p-3 text-center">Olá, mundo! &#128075; &#127758; </h1>
+            <div class="row">
+                <img class="imagem col-md-4  rounded-circle" src="img/YARIN.jpg" alt="Foto da criadora do blog com oculos escuros e chapéu">
+                <p id="sobre"class=" font-italic col-md-8 mt-2 text-monospace align-self-center">Eu me chamo <strong>Yarin</strong>, tenho 29 anos, sou Capixaba, nascida e criada em Vitória-ES. Eu sou formada 
+                em Ciências Contábeis e meu sonho é ter liberdade geográfica e ser nômade digital. No momento estou 
+                em transição de carreira, estudando para ser Desenvolvedora Java Full Stack. Me encontrei profissionalmente 
+                nessa área, e de quebra ainda estou cada vez mais perto de ter a tão sonhada liberdade geográfica.
+                Meu hobby favorito é conhecer lugares novos, sejam perto, seja nesse Brasil (lindão), ou por esse mundão.
+                Eu tive a felicidade (e muito esforço, dedicação e juntação de grana) de conhecer 11 países e visitei algumas cidades
+                de 5 estados brasileiros. Sei que isso é só o começo! <strong> Bora me acompanhar?</strong></p>   
+            </div>
+            <p class="lead p-5 text-center font-italic">Aqui você pode acompanhar minhas aventuras pelo mundo. Vamos? &#9992;</p>   
+      </div>
+      <!--/Jumbotron-->
+      <!--Cards-->
+      <div id="cards" class="card-deck rounded .align-items-center p-4 m-5">
+            <div class="card border border-primary">
+             <img class="card-img-top p-3" src="img/republica-dominicana.jpg" alt="Imagem de Yarin na republica dominicana">
+                <div class="card-body">
+                    <h5 class="card-title text-monospace">Praia de Bayahibe - República dominicana</h5>
+                    <p class="card-text text-justify">Aguas cristalinas, quentinhas e acompanhada de um delicioso Coco-Loco. 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At quibusdam ratione unde provident deleniti,
+                    id debitis laboriosam nisi fugit dolores eligendi rem quidem itaque assumenda cum consectetur alias 
+                    architecto ipsum.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Atualizados 3 minutos atrás</small>
+                </div>
+            </div>
+            <div class="card border border-primary">
+             <img class="card-img-top p-3" src="img/Mdina.jpg" alt="Um sorvete em primeiro plano e ao fundo uma casa com flores">
+                <div class="card-body">
+                    <h5 class="card-title text-monospace">Mdina - Malta</h5>
+                    <p class="card-text text-justify">Tomando um gelato na cidade murada de Mdina. Lorem ipsum, dolor sit amet 
+                    consectetur adipisicing elit. Voluptatem accusantium asperiores quas labore alias iste illum obcaecati,
+                    nobis nulla porro beatae ut ea sit vel molestiae minus. Facilis, molestias architecto?</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Atualizados 3 minutos atrás</small>
+                </div>
+            </div>
+            <div class="card border border-primary">
+             <img class="card-img-top p-3" src="img/roma-coliseum.jpg" alt="Um café e um tiramisu e ao fundo o coliseum">
+                <div class="card-body">
+                    <h5 class="card-title text-monospace">Roma - Itália</h5>
+                    <p class="card-text text-justify">Um café e um tiramisu com vista para o Coliseum. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Rem labore enim commodi! Illo porro ex reprehenderit iste neque.
+                    Assumenda numquam suscipit mollitia perspiciatis itaque ad est nulla odit aliquid et?</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Atualizados 3 minutos atrás</small>
+                </div>
+            </div>
+      </div>
+      <!--/Cards-->
+      <!--Cards2-->
+        <div id="cards" class="card-deck rounded .align-items-center p-4 m-5">
+            <div class="card border border-primary">
+             <img class="card-img-top p-3" src="img/pedra-azul.jpg" alt="Imagem de Yarin com a Pedra Azul ao fundo">
+                <div class="card-body ">
+                    <h5 class="card-title text-monospace">Pedra Azul - Espírito Santo</h5>
+                    <p class="card-text text-justify">Essa cidade é incrivel, com um clima delicioso. 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At quibusdam ratione unde provident deleniti,
+                    id debitis laboriosam nisi fugit dolores eligendi rem quidem itaque assumenda cum consectetur alias 
+                    architecto ipsum.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Atualizados 3 minutos atrás</small>
+                </div>
+            </div>
+            <div class="card border border-primary">
+             <img class="card-img-top p-3" src="img/barcelona.jpg" alt="Um sorvete em primeiro plano e ao fundo uma casa com flores">
+                <div class="card-body">
+                    <h5 class="card-title text-monospace">Arco do triunfo - Barcelona</h5>
+                    <p class="card-text text-justify">Barcelona também tem um arco do triunfo belissimo. Lorem ipsum, dolor sit amet 
+                    consectetur adipisicing elit. Voluptatem accusantium asperiores quas labore alias iste illum obcaecati,
+                    nobis nulla porro beatae ut ea sit vel molestiae minus. Facilis, molestias architecto?</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Atualizados 3 minutos atrás</small>
+                </div>
+            </div>
+            <div class="card border border-primary">
+             <img class="card-img-top p-3" src="img/gramado_2.jpg" alt="Um café e um tiramisu e ao fundo o coliseum">
+                <div class="card-body">
+                    <h5 class="card-title text-monospace">Gramado</h5>
+                    <p class="card-text text-justify">Fiz um tour por alguns sitios em Gramado, e o meio de transporte foi esse onibus lindinho. 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem labore enim commodi! Illo porro ex reprehenderit iste neque.
+                    Assumenda numquam suscipit mollitia perspiciatis itaque ad est nulla odit aliquid et?</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Atualizados 3 minutos atrás</small>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!--/Cards2-->
+        <!--Mapa-->
+        <div id="mapa">
+            <div class="col-md-12">
+                <h2 class="text-center font-weight-bold p-3">&#10024; Lugares que já visitei &#10024; </h2>
+                <p class="text-center font-italic"> (e alguns lugares que sonho muuuito em conhecer)</p>
+            </div>
+            <div class="mapa mundo container mb-5">
+                <iframe src="https://www.google.com/maps/d/embed?mid=1WWaQLF-gn8eHMGlH5JaGrOl_etX_1Qy-" width="1100" 
+                height="400"></iframe>
+            </div>
+        </div>
+        <!--/Mapa-->
+        <!--Texto e Video-->
+        <hr>
+        <div id="playlist">
+        <h3  class="titulo text-center p-4 m-3">&#128249; Videos para entrar na vibe viagem &#128249;</h3>
+            <div id="video"class="videos row ml-5 mr-5 mb-5">
+                <div class="col-md-6">
+                    <iframe width="580" height="315" src="https://www.youtube.com/embed/ebXbLfLACGM" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+                    picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-6">
+                    <iframe width="580" height="315" src="https://www.youtube.com/embed/9TQKyDD9Yig" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+                    picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+          <!--/Texto e Video--> 
+          <!--Playlist Spotify--> 
+        <hr>
+        <div id="playlist">
+            <h3  class="titulo text-center p-4 m-3"> &#127925; Minha playlist do momento &#127925;</h3>
+            <div id="spotify"class="container">
+                <div class="row ml-5 mr-5 mb-5 ">
+                <iframe src="https://open.spotify.com/embed/playlist/6W4QoYiE4NzimaeNF3YXqF" width="1050" 
+                height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+            </div>
+        </div>
+        <!--/Playlist Spotify--> 
+        <!--Formulario-->
+        <hr>
+        <div id="contato"class="container col-md-6">
+            <h3 id="formulario" class="text-center p-3 m-3"> &#128221; Entre em contato comigo &#128221; </h3>
+            <form class="p-2 text-monospace ml-5 mr-5 mb-5">
+                <div class="form-group">
+                <label for="exampleFormControlInput1">Nome</label>
+                <input type="nome" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Endereço de email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+                </div>  
+                <div class="form-group">
+                <label for="exampleFormControlTextarea1">Mensagem</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="button" class="btn btn-outline-info p-2">Enviar</button>
+            </form>
+        </div>
+        <!--/Formulario-->
+        <!--Rodapé-->
+        <hr>
+        <footer>
+            <div class="row mb-3 pt-3">
+                <div class="col-md-12 d-flex justify-content-center">
+                    <a href="https://www.instagram.com/yarinalcantara/" class="p-3">
+                        <img class="tm-social " src="img/instagram.png" alt="logo do instagram">
+                    </a>
+                    <a href="https://www.linkedin.com/in/yarin-alcantara-195547192/" class="p-3">
+                        <img class="tm-social" src="img/linkedin.png" alt="logo do linkedin">
+                    </a>
+                    <a href="https://www.facebook.com/yarin.lemosdealcantara/" class="p-3">
+                        <img class="tm-social" src="img/facebook.png" alt="logo do facebook">
+                    </a>
+                    <a href="https://github.com/yarin-alcantara" class="p-3">
+                        <img class="tm-social" src="img/github.png" alt="logo do github">
+                    </a>
+                </div>
+            </div>
+                <div class="row ">
+                    <div class="col-md-12">
+                        <p class="text-center">&copy; Copyright Yarin Lemos de Alcantara - 2021</p>
+                    </div>
+                </div>
+        </footer>
+        <!--/Rodapé-->      
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

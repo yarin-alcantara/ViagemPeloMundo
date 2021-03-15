@@ -1,0 +1,53 @@
+.navbar navbar-expand-lg{
+    background-color: #c3f1f5;
+}
+.navbar {
+    background-color: #b3ebf0;
+}
+.navbar-brand{
+    color: rgb(6, 13, 53);
+    font-weight: bold;
+    font-family: 'Satisfy', cursive;
+    font-size: 40px;
+}
+.nav-link{
+    color: rgb(41, 112, 124); 
+    font-family: 'Caveat', cursive;
+    font-size: 18px;
+}
+#jumbo{
+    font-family: 'Satisfy', cursive;
+    background-color: #b3ebf0;
+}
+#sobre{
+    font-size: 18px ;
+}
+.card-title{
+    color: rgb(6, 13, 53);
+    text-align: center;
+    font-weight: bold;
+}
+.card-text{
+    color: rgb(44, 58, 136);
+    font-style: italic;
+}
+#mapa{
+    font-family: 'Satisfy', cursive;
+}
+hr{
+    background-color: #b3ebf0;
+}
+#playlist{
+    font-family: 'Satisfy', cursive;
+}
+#formulario{
+    font-family: 'Satisfy', cursive;
+}
+footer{
+    margin-top: 20px;
+    background-color: #b3ebf0;
+}
+.tm-social {
+    width: 30px;
+    height: 30px;
+}
